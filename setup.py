@@ -14,5 +14,5 @@ setup(name='hellopython',
       install_requires=['matplotlib'],
       # what to expose as callable as a bash command
       entry_points={'console_scripts': [
-        'maatt-print_hello = hellopython.hello:dummy_print_hello']}
+        'maatt-print-hello = hellopython.hello:dummy_print_hello']}
      )
